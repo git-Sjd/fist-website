@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Form Paractice</title>
+
+
+</head>
+
+<body>
+        <div id="main_box">
+            <h2 style="color:gray;font-size:30px;margin-left:30px;">Registration Form</h2>
+            <form >
+                <div class="input_div">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name=fname class="inside_box"> <br>
+                </div>
+
+                <div class="input_div">
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name=lname class="inside_box"> <br>
+                </div>
+
+                <div class="input_div">
+                    <label for="bday">Birthday</label>
+                    <input type="date" id="bday" name=bday class="inside_box"> <br>
+                </div>
+
+                <div class="input_div">
+                    <label for="gender" >Gender</label>
+                    <input type="radio" id="gender" name=gender class="inside_box">Male
+                    <input type="radio" id="gender" name=gender class="inside_box">Female
+                    <br>
+                </div>
+
+                <div class="input_div">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name=email class="inside_box"> <br>
+                </div>
+
+                <div class="input_div">
+                    <label for="number">Phone Number</label>
+                    <input type="text" id="number" name=number class="inside_box"> <br>
+                </div>
+
+                <div class="input_div">
+                    <label for="sub">Subject</label>
+                    <select name="sub_response" id="sub" class="inside_box" style="width:100%;">
+                        <option value="choose option" selected>Choose Options</option>
+                        <option value="sub 1">Subject 1</option>
+                        <option value="sub 2">Subject 2</option>
+                        <option value="sub 3">Subject 3</option>
+                    </select>
+                </div>
+
+                <div>
+                    <input type="submit" id="submit_button">
+                </div>
+            </form>
+        </div>
+</body>
+
+</html>
